@@ -118,10 +118,8 @@ for i in a:
 
 #np.save("errortest.npy",errortest) #0.109375 0.11328125  0.126953125
 
-plt.figure(1)
 a=np.arange(0,100.5,0.5)
-plt.scatter(a,errortest.T,marker='o',color='g', label='test error rate')
-plt.figure(2)
+plt.figure(1)
 plt.plot(a,errortest.T,color='b',label='test error rate')
 
 
@@ -182,11 +180,6 @@ for i in a:
 #np.save("errortrain.npy",errortrain) #0.109951060359  0.114192495922  0.138336052202
 
 plt.figure(1)
-plt.scatter(a,errortrain.T,marker='o',color='r',label='train error rate')
-plt.title('Error rate -- Beta-bernoulli Naive Bayes')
-plt.legend(loc=0)
-
-plt.figure(2)
 plt.plot(a,errortrain.T,color='r',label='train error rate')
 plt.title('Error rate -- Beta-bernoulli Naive Bayes')
 plt.legend(loc=0)
