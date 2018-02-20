@@ -9,7 +9,6 @@ ytrain=mat['ytrain'] #<class 'numpy.ndarray'> (3065, 1)
 Xtest=mat['Xtest']   #ndarray like list. (1536, 57)
 ytest=mat['ytest']	#label   (1536, 1)
 
-print(Xtrain.shape)
 
 def binarization(X):
 	lis= np.zeros(X.shape)
@@ -113,6 +112,7 @@ for i in a:
 	if i==100:
 		print(errortest[0,Ytestcolumn])
 	Ytestcolumn+=1
+	
 
 
 
@@ -121,7 +121,6 @@ for i in a:
 a=np.arange(0,100.5,0.5)
 plt.figure(1)
 plt.plot(a,errortest.T,color='b',label='test error rate')
-
 
 
 #For traing error
