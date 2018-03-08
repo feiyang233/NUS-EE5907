@@ -9,5 +9,3 @@ Just "Run" it in python3 and get the results.
 ##Attention##
 In log and binarization procession, use logistic.cdf(x) instead of sigmoid() to avoid overflow.
 And use np.linalg.pinv(HH)*greg to avoid singular matrix. 
-
-After deadline, I will upload the python file.

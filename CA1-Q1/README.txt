@@ -6,4 +6,6 @@ This code is about Question 1 in the Pattern Recognition CA-1. Our purpose is to
 ##Instructions to run code##
 Just "Run" it in python3 and get the results.
 
+[Finished in 471.4s]
+
 If you only want to check result, you can run the test.py to get the picture.

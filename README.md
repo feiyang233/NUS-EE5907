@@ -1,1 +1,2 @@
-# NUS-EE5907
+# Environment python3
+#library numpy, matplotlib,scipy,sklearn
